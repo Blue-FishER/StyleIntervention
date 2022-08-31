@@ -1,0 +1,7 @@
+*.png
+.idea/
+.ipynb_checkpoints/
+__pychache__/
+debug/
+sample/
+
