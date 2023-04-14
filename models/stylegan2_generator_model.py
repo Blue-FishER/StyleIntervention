@@ -542,7 +542,7 @@ class Generator(nn.Module):
         randomize_noise=True,
     ):
         # styles是一个tensor的list
-        # generate.py: list只有一个元素，元素的大小是[sample, latent]
+        # generate.py: list只有一个元素，元素的大小是[sample, latent_dim]
 
         # mapping
         if not input_is_latent:
